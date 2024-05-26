@@ -1,0 +1,11 @@
+<mat-card>
+  <mat-card-content>
+    <div *ngFor="let ingresso of ingressos">
+      <strong>{{ ingresso.nome }}</strong>
+      <br />
+      <span>R$ {{ ingresso.valor }}</span>
+      <br />
+      <button class="btn__comprar" >RESERVAR</button>
+    </div>
+  </mat-card-content>
+</mat-card>

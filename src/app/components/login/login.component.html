@@ -1,0 +1,16 @@
+
+
+
+    <div class="container" [formGroup]="formUser">
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+          </mat-form-field>
+        
+          <mat-form-field>
+            <mat-label>Senha</mat-label>
+            <input matInput formControlName="password">
+          </mat-form-field>
+          <button (click)="login()" >ENTRAR</button>
+          <button (click)="cadastro()" >CADASTRO</button>
+    </div>

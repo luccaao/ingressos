@@ -1,0 +1,10 @@
+.btn__comprar{
+    background-color: blanchedalmond;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}

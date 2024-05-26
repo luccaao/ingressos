@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "@gmail.com",
+      "password": "123456",
+      "ingressosComprados": [
+        {
+          "id": 1,
+          "nome": "Show do Metallica",
+          "data": "2021-10-10",
+          "local": "Allianz Parque",
+          "valor": 500,
+          "disponivel": false
+        },
+        {
+          "id": 2,
+          "nome": "Concerto de Rock",
+          "data": "2024-06-25",
+          "local": "Estádio do Morumbi",
+          "valor": 350,
+          "disponivel": false
+        }
+      ]
+    },
+    {
+      "id": "9186",
+      "email": "lfedfd@",
+      "password": "233232",
+      "ingressosComprados": []
+    },
+    {
+      "id": "a730",
+      "email": "lucas@gmail.com",
+      "password": "12345",
+      "ingressosComprados": []
+    },
+    {
+      "id": "9f0a",
+      "email": "lucasgr01@gmail.com",
+      "password": "lucelay",
+      "ingressosComprados": []
+    }
+  ],
+  "ingressos": [
+    {
+      "id": "1",
+      "nome": "Show do Metallica",
+      "data": "2021-10-10",
+      "local": "Allianz Parque",
+      "valor": 500
+    },
+    {
+      "id": "2",
+      "nome": "Concerto de Rock",
+      "data": "2024-06-25",
+      "local": "Estádio do Morumbi",
+      "valor": 350
+    },
+    {
+      "id": "3",
+      "nome": "Peça de Teatro: Hamlet",
+      "data": "2024-07-15",
+      "local": "Teatro Municipal",
+      "valor": 120
+    },
+    {
+      "id": "4",
+      "nome": "Festival de Jazz",
+      "data": "2024-08-05",
+      "local": "Parque do Ibirapuera",
+      "valor": 200,
+      "disponivel": true
+    },
+    {
+      "id": "5",
+      "nome": "Stand-up Comedy Show",
+      "data": "2024-09-10",
+      "local": "Auditório Ibirapuera",
+      "valor": 80,
+      "disponivel": true
+    }
+  ]
+}
